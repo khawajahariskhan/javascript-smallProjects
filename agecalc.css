@@ -30,6 +30,7 @@ button{
 }
 button:hover{
     cursor: pointer;
-    background-color:rgb(240, 220, 190) ;
+    background-color:rgb(188, 159, 116) ;
     transform: scale(1);
+    color: white;
 }
