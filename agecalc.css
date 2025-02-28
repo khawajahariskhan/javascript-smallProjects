@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: blanchedalmond;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center the content vertically as well */
+  height: 100vh; /* Full viewport height */
+}
+
+.calc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid black;
+  box-shadow: 1px 13px 15px rgb(214, 186, 126);
+}
+button{
+    margin: 0.7em;
+    padding: 0.7em;
+    background-color: transparent;
+    border-radius: 30px;
+    box-shadow: 1px 13px 15px rgb(214, 186, 126);
+    transition: all ease 0.5s;
+}
+button:hover{
+    cursor: pointer;
+    background-color:rgb(240, 220, 190) ;
+    transform: scale(1);
+}
